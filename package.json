@@ -1,0 +1,40 @@
+{
+  "name": "jate",
+  "version": "1.0.0",
+  "description": "this program uses webpack concurrent",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haydenburger43/text-editing-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haydenburger43/text-editing-app/issues"
+  },
+  "homepage": "https://github.com/haydenburger43/text-editing-app#readme",
+
+  "engines": {
+    "node": "17.x"
+  },
+  "heroku-prebuild": "npm install --dev"
+}
+
+
