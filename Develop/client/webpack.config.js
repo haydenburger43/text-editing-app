@@ -8,12 +8,10 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 module: {
   rules: [
     {
-      test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      type: 'asset/resource',
+ 
     },
   ]
 }
-import logo from '../client/favicon.ico' 
 module.exports = () => {
   return {
     mode: 'development',
